@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+
+ul.navigation {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 50px;
+    color: #222;
+    border-bottom: 5px solid cadetblue;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+a:hover {
+    color: cadetblue;
+    background-color: white;
+    border-bottom: 5px solid white;
+}
+
+.active {
+    border-bottom: 5px solid white;
+}
+
+.logo {
+    padding: 10px 40px;
+}
